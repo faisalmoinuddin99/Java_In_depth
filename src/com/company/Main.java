@@ -6,37 +6,29 @@ public class Main {
 
     public static void main(String[] args) {
 
-   boolean x = false;
-   if(!x){
-       System.out.println("hello"); // hello
-   }else {
-       System.out.println("hi");
-   }
-    double d = 10e2 ; // Exponential expression 10 * 10 ^ 2
-        System.out.println(d); // 1000.0
+        // Arrays
+        // 1-D array declaration
+        double [] a = new double[10];
+        int ab[];
 
-        float f = 5e2f ; // ==> 5 * 5 ^ 2
-        System.out.println(f); // 500.0
+        // 2-D array declaration
 
-        char ch = 97 ;
-        for(ch = 97; ch <= 101; ch++) {
-            System.out.println(ch);
-        }
+        int[][] abc = new int[2][] ;
+        int abcd[][] ;
+        int []abcde[];
 
-        char c = 0xFa ;
-        System.out.println(c); // ú
+        System.out.println(abc); // [[I@1b6d3586 ==> int class name
+        System.out.println(a); // [D@4554617c ==> double class name
+        System.out.println(a.length); // 10
 
-        double v = 10_10_78;
-        System.out.println(v);
+        int[] check = new int['a'];
+        System.out.println(check.length); // 97 length
 
-        double cha = 'a';
-        System.out.println(cha); // 97.0
+        String s = "bhasker";
+        System.out.println(s.length());//7
 
-        int chac = 'a';
-        System.out.println(chac); // 97
 
-        double test = 57;
-        System.out.println(test); // 57
+
 
 
     }
